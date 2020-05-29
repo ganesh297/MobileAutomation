@@ -6,7 +6,7 @@
 <listener class-name="TestNG.Transform"></listener>
 </listeners>
  
-
+<!-- Author Ganesh -->
 <test name="Test Mail">
 <parameter name="browser" value="chrome"></parameter>
 
