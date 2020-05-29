@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Link]]>
+    </line>
+  </reporter-output>
+  <suite name="Mail" duration-ms="217" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+    <groups>
+    </groups>
+    <test name="Test Mail" duration-ms="217" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+      <class name="TestNG.Yahoo">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNG.Yahoo@e2abd]" name="launchBrowser" duration-ms="0" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loadYahoo()[pri:1, instance:TestNG.Yahoo@e2abd]" name="loadYahoo" duration-ms="1" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadYahoo -->
+        <test-method status="PASS" signature="composeMail()[pri:2, instance:TestNG.Yahoo@e2abd]" name="composeMail" duration-ms="0" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- composeMail -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:TestNG.Yahoo@e2abd]" name="Logout" duration-ms="0" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- TestNG.Yahoo -->
+      <class name="TestNG.Gmail">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:TestNG.Gmail@756e4d]" name="beforesuite" is-config="true" duration-ms="6291" started-at="2020-05-29T09:12:19Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="setReport()[pri:0, instance:TestNG.Gmail@756e4d]" name="setReport" is-config="true" duration-ms="168" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:TestNG.Gmail@756e4d]" name="endReport" is-config="true" duration-ms="2" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNG.Gmail@756e4d]" name="launchBrowser" duration-ms="4" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNG.Gmail@756e4d]" name="tearDown" is-config="true" duration-ms="10" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchBrowser status=SUCCESS method=Gmail.launchBrowser(java.lang.String)[pri:0, instance:TestNG.Gmail@756e4d] output=Screenshot Link]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loadGmail()[pri:1, instance:TestNG.Gmail@756e4d]" name="loadGmail" duration-ms="2" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadGmail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNG.Gmail@756e4d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loadGmail status=SUCCESS method=Gmail.loadGmail()[pri:1, instance:TestNG.Gmail@756e4d] output=Screenshot Link]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="composeMail()[pri:2, instance:TestNG.Gmail@756e4d]" name="composeMail" duration-ms="0" started-at="2020-05-29T09:12:25Z" depends-on-methods="TestNG.Gmail.loadGmail" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- composeMail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNG.Gmail@756e4d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=composeMail status=SUCCESS method=Gmail.composeMail()[pri:2, instance:TestNG.Gmail@756e4d] output=Screenshot Link]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:TestNG.Gmail@756e4d]" name="Logout" duration-ms="0" started-at="2020-05-29T09:12:25Z" depends-on-methods="TestNG.Gmail.loadGmail" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNG.Gmail@756e4d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=Gmail.Logout()[pri:3, instance:TestNG.Gmail@756e4d] output=Screenshot Link]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDB()[pri:4, instance:TestNG.Gmail@756e4d]" name="closeDB" duration-ms="0" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNG.Gmail@756e4d]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closeDB status=SUCCESS method=Gmail.closeDB()[pri:4, instance:TestNG.Gmail@756e4d] output=Screenshot Link]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.Gmail@756e4d]" name="afterSuite" is-config="true" duration-ms="78" started-at="2020-05-29T09:12:25Z" finished-at="2020-05-29T09:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.Gmail -->
+    </test> <!-- Test Mail -->
+  </suite> <!-- Mail -->
+</testng-results>

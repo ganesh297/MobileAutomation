@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Mail]" parallel="tests">
+  <listeners>
+    <listener class-name="TestNG.Listener"/>
+    <listener class-name="TestNG.Transform"/>
+  </listeners>
+  <test thread-count="5" verbose="5" name="Test Mail(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNG.Yahoo">
+        <methods>
+          <include name="loadYahoo"/>
+          <include name="launchBrowser"/>
+          <include name="Logout"/>
+          <include name="composeMail"/>
+        </methods>
+      </class> <!-- TestNG.Yahoo -->
+      <class name="TestNG.Gmail">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="endReport"/>
+          <include name="composeMail"/>
+          <include name="setReport"/>
+          <include name="launchBrowser"/>
+          <include name="Logout"/>
+          <include name="afterSuite"/>
+          <include name="loadGmail"/>
+          <include name="closeDB"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG.Gmail -->
+    </classes>
+  </test> <!-- Test Mail(failed) -->
+</suite> <!-- Failed suite [Mail] -->
