@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Mail" verbose="5" parallel="tests">
 <listeners>
-<listener class-name="TestNG.Listener"></listener>
-<listener class-name="TestNG.Transform"></listener>
+<listener class-name="TestNG.ExtentListeners"></listener>
+<!-- <listener class-name="TestNG.Transform"></listener> -->
 </listeners>
  
 <!-- Author Ganesh -->
