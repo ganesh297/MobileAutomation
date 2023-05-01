@@ -6,7 +6,7 @@
   
   <properties>
   	
-		<version.testng>6.14.3</version.testng>
+		<version.testng>7.7.0</version.testng>
 		<version.selenium-java>3.12.0</version.selenium-java>
 		<version.selenium-server>2.46.0</version.selenium-server>
 		<version.maven-resources-plugin>2.6</version.maven-resources-plugin>
@@ -58,7 +58,7 @@
 <dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
+			<version>7.7.0</version>
 			
 		</dependency>
     <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
